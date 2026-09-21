@@ -18,7 +18,7 @@ Fichiers principaux:
 
 ```text
 public/index.html
-public/static/css/styles-v5.css
+public/static/css/styles-v6.css
 public/static/assets/
 ```
 

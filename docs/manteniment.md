@@ -24,20 +24,20 @@ Normes:
 L'estil actiu és:
 
 ```text
-public/static/css/styles-v5.css
+public/static/css/styles-v6.css
 ```
 
 Les versions anteriors es conserven. Si es fa una nova direcció visual
 important, crear:
 
 ```text
-public/static/css/styles-v6.css
+public/static/css/styles-v7.css
 ```
 
 Després actualitzar la plantilla:
 
 ```html
-<link rel="stylesheet" href="static/css/styles-v6.css">
+<link rel="stylesheet" href="static/css/styles-v7.css">
 ```
 
 ## Versionat d'assets
@@ -50,6 +50,7 @@ Exemples correctes:
 logo-v4.svg
 clinic-studio-v3.png
 styles-v5.css
+styles-v6.css
 ```
 
 Exemples a evitar:
@@ -70,7 +71,7 @@ public/static/assets/favicon-v1.svg
 public/static/assets/logo-v4.svg
 public/static/assets/smile-pattern-v1.svg
 public/static/assets/clinic-studio-v3.png
-public/static/css/styles-v5.css
+public/static/css/styles-v6.css
 ```
 
 ## Proves recomanades després de canvis

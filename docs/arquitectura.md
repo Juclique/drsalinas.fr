@@ -45,6 +45,7 @@ Les dades públiques principals configurades al contingut són:
 - adreça: `11 Rue du Maréchal de Boufflers, Songeons`;
 - telèfon: `03 44 11 76 91`;
 - correu: `rdv@drsalinas.fr`.
+- horari: `9h30 - 13h00` i `14h00 - 18h00`.
 
 ## Validació
 

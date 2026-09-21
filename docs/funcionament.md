@@ -13,6 +13,7 @@ Els objectius principals són:
 - facilitar el contacte amb el cabinet;
 - indicar que el cabinet és a `11 Rue du Maréchal de Boufflers, Songeons`;
 - mostrar el telèfon `03 44 11 76 91` i el correu `rdv@drsalinas.fr`.
+- mostrar l'horari `9h30 - 13h00` i `14h00 - 18h00`.
 
 ## Estructura de la pàgina
 
