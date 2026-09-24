@@ -9,7 +9,7 @@ les coordenades del cabinet.
 Els objectius principals són:
 
 - transmetre una imatge editorial, tranquil·la i d'alta qualitat;
-- explicar els serveis dentals sense sobrecarregar la pàgina;
+- presentar el tracte familiar i la història de la casa, amb la referència més antiga coneguda de 1658;
 - facilitar el contacte amb el cabinet i la reserva de cita amb Google Calendar;
 - indicar que el cabinet és a `11 Rue du Maréchal de Boufflers, Songeons`;
 - mostrar el telèfon `03 44 11 76 91` i el correu `rdv@drsalinas.fr`.
@@ -27,8 +27,7 @@ Les seccions principals són:
 
 - `header.site-header`: hero visual amb imatge de clínica, navegació i CTA.
 - `section#cabinet`: presentació del cabinet i filosofia de treball.
-- `section.feature-row`: tres valors del servei.
-- `section#soins`: llista dels tractaments principals.
+- `section.house-story`: referència històrica de 1658 i comparació del plànol de 1764 amb Google Maps.
 - `section#technologies`: bloc sobre tecnologia clínica.
 - `section#rendez-vous`: reserva de cita en línia i informació de contacte.
 - `footer.footer`: tancament i enllaç de retorn.
@@ -39,7 +38,6 @@ La navegació superior apunta a àncores internes:
 
 ```text
 #cabinet
-#soins
 #technologies
 #rendez-vous
 ```

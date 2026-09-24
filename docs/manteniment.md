@@ -24,20 +24,20 @@ Normes:
 L'estil actiu és:
 
 ```text
-public/static/css/styles-v6.css
+public/static/css/styles-v10.css
 ```
 
 Les versions anteriors es conserven. Si es fa una nova direcció visual
 important, crear:
 
 ```text
-public/static/css/styles-v7.css
+public/static/css/styles-v11.css
 ```
 
 Després actualitzar la plantilla:
 
 ```html
-<link rel="stylesheet" href="static/css/styles-v7.css">
+<link rel="stylesheet" href="static/css/styles-v11.css">
 ```
 
 ## Versionat d'assets
@@ -50,7 +50,7 @@ Exemples correctes:
 logo-v4.svg
 clinic-studio-v3.png
 styles-v5.css
-styles-v6.css
+styles-v10.css
 ```
 
 Exemples a evitar:
@@ -71,7 +71,7 @@ public/static/assets/favicon-v1.svg
 public/static/assets/logo-v4.svg
 public/static/assets/smile-pattern-v1.svg
 public/static/assets/clinic-studio-v3.png
-public/static/css/styles-v6.css
+public/static/css/styles-v10.css
 ```
 
 ## Proves recomanades després de canvis
@@ -90,3 +90,26 @@ public/index.html
 ```
 
 Revisar manualment la home abans de publicar.
+
+## Fotografies del cabinet (v1)
+
+- `dr-salinas-portrait-v1.jpg`: retrat de la doctora.
+- `cabinet-soins-v1.jpeg`: sala de tractament, no utilitzada.
+- `cabinet-reception-v1.jpeg`: recepció i sala d’espera, portada.
+- `cabinet-imagerie-v1.jpeg`: radiologia.
+
+Les còpies de les fotos es conserven sense retoc. Els enquadraments visibles
+es defineixen amb `object-fit` i `object-position` a `styles-v10.css`, amb una
+composició adaptada a mòbil. `dr-salinas-travail-v1.jpg` mostra la doctora treballant a la segona secció.
+El retrat es mostra a la secció de cita.
+La versió anterior dels estils i la imatge anterior es conserven.
+
+## Retrat v2 i relat de la casa
+
+`dr-salinas-portrait-v2.png` és el retrat actiu, editat amb ImageGen integrat.
+Original conservat en v1. Instrucció: eliminar la marca Vericat i arreglar els
+cabells solts, preservant identitat, expressió, roba i blanc i negre.
+La referència més antiga coneguda de la casa és de 1658, segons el propietari. No és la data
+d’obertura del cabinet. La comparació del plànol de 1764 amb Google Maps,
+aportada pel propietari, es conserva sense retoc en
+`cabinet-plan-1764-comparaison-v1.png`.
