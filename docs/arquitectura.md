@@ -34,7 +34,8 @@ Settings > Pages > Build and deployment > Source: GitHub Actions
 
 ## Web publicada
 
-La web és una pàgina pública sense formulari de cita ni zona privada.
+La web és una pàgina pública amb enllaços a la pàgina de reserves de Google
+Calendar, sense formulari local de cita ni zona privada.
 El repositori no ha de contenir secrets, claus API, paràmetres SMTP ni
 configuracions privades del correu.
 

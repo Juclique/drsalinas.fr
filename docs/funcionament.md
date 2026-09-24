@@ -10,7 +10,7 @@ Els objectius principals són:
 
 - transmetre una imatge editorial, tranquil·la i d'alta qualitat;
 - explicar els serveis dentals sense sobrecarregar la pàgina;
-- facilitar el contacte amb el cabinet;
+- facilitar el contacte amb el cabinet i la reserva de cita amb Google Calendar;
 - indicar que el cabinet és a `11 Rue du Maréchal de Boufflers, Songeons`;
 - mostrar el telèfon `03 44 11 76 91` i el correu `rdv@drsalinas.fr`.
 - mostrar l'horari `9h30 - 13h00` i `14h00 - 18h00`.
@@ -30,7 +30,7 @@ Les seccions principals són:
 - `section.feature-row`: tres valors del servei.
 - `section#soins`: llista dels tractaments principals.
 - `section#technologies`: bloc sobre tecnologia clínica.
-- `section#rendez-vous`: coordonnades i informació de contacte.
+- `section#rendez-vous`: reserva de cita en línia i informació de contacte.
 - `footer.footer`: tancament i enllaç de retorn.
 
 ## Navegació
@@ -45,6 +45,18 @@ La navegació superior apunta a àncores internes:
 ```
 
 No hi ha múltiples pàgines. Tot el contingut viu en una sola plantilla.
+
+## Reserva de cita
+
+El botó «Prendre rendez-vous» de la capçalera i el de la secció de cita obren
+la pàgina de reserves de Google Calendar en la mateixa pestanya:
+
+https://calendar.app.google/PrZpYBvFLjgStx2JA
+
+Els horaris disponibles i les reserves es gestionen a Google Calendar.
+La web conserva el telèfon i el correu com a alternatives. Per canviar la
+pàgina de reserves, cal actualitzar els dos enllaços a `public/index.html`.
+No calen scripts, claus API ni formularis locals.
 
 ## Idioma
 
